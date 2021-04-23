@@ -39,7 +39,7 @@ var manager = {
     displayArticles: function() {
         $.ajax({
             url: "http://localhost:5557/articles/", // browser
-            //url: "http://10.0.2.2:5557/articles/", // emulate andoid
+            //url: "http://10.0.2.2:5557/articles/", // emulate android
             type: "GET",
             cache: false,
             dataType: "json",
